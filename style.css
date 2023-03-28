@@ -1,0 +1,79 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    font-size: 1.5rem;
+}
+header{
+    border-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+.menu{
+    margin-left: 34%;
+}
+#menu_list{
+    font-size: 2rem;
+    list-style: none;
+    padding: 0;
+}
+#menu_list li{
+    display: inline;
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.sign_up{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.sign_up:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+main div{
+    width: 50%;
+}
+main{
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    width: 60%;
+    margin-left: 40%;
+}
+.div_text{
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer nav h2{
+    font-size: 2rem;
+}
+footer .div_img_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 30%;
+}
